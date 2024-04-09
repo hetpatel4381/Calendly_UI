@@ -10,17 +10,17 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row p-2">
         {/* <!-- Left Div --> */}
         <div className="w-full md:w-2/5 bg-gray-200 p-4">
-          <div className="text-5xl font-bold flex justify-start mb-4">
-            <p>
-              Easy
+          <div className="text-5xl h-[] font-bold flex justify-start">
+            <p className="flex flex-col items-start my-4 font-roboto font-extrabold text-3xl">
+              <span>Easy</span>
               <br className="md:hidden" />
               <span className="text-blue-500">ahead</span>
             </p>
           </div>
-          <p classNameName="flex justify-start mb-4">
+          <p className="flex items-start text-left mb-4">
             We take the work out of connecting with others so you can accomplish
             more.
           </p>
@@ -74,13 +74,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <div classNameName="flex flex-row justify-between">
-        <p classNameName="text-gray-600">Copyright Calendly 2024</p>
-        <p classNameName="text-gray-600">
-          <span classNameName="text-sm font-extralight">🟢</span> Calendly
-          Status
+      <div className="flex flex-row justify-between">
+        <p className="text-gray-600">Copyright Calendly 2024</p>
+        <p className="text-gray-600">
+          <span className="text-sm font-extralight">🟢</span> Calendly Status
         </p>
-        <p classNameName="text-gray-600">Privacy / Terms and Conditions</p>
+        <p className="text-gray-600">Privacy / Terms and Conditions</p>
       </div>
     </>
   );

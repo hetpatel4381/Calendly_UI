@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         mont: ["Montserrat Alternates", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
